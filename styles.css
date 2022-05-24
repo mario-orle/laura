@@ -23,14 +23,19 @@ body {
   width: calc(100% - 20px);
   justify-content: space-between;
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+.actions .info .breadcrumb {
+  display: flex;
+  align-items: flex-end;
 }
 .actions .info .buttons {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 nav {
-  margin-top: 90px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,22 +51,23 @@ nav ul {
   flex-grow: 2;
   max-height: 100px;
   padding: 20px;
+  width: 40%;
 }
 nav ul li {
   background-color: black;
 }
-
 footer {
-  height: 180px;
+  height: 150px;
   background-color: black;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-flow: column;
   align-items: center;
+  padding-bottom: 10px;;
 }
 
 footer .social {
@@ -76,11 +82,12 @@ footer .info {
   display: flex;
   width: calc(100% - 20px);
   justify-content: space-between;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 footer .info ul {
   list-style: none;
+  margin: 0;
 }
 footer .info ul li:first-child {
   font-size: 1.1em;
