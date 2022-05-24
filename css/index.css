@@ -1,6 +1,8 @@
 
 .content .box {
   width: 50%;
+  max-width: 720px;
+  min-width: 480px;
   background-color: #c5c6d8;
   border-radius: 20px;
   height: 300px;
