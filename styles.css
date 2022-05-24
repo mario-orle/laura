@@ -50,7 +50,7 @@ nav ul {
   background-color: black;
   flex-grow: 2;
   max-height: 100px;
-  padding: 20px;
+  padding: 10px 20px;
   width: 40%;
 }
 nav ul li {
@@ -67,7 +67,7 @@ footer {
   justify-content: flex-end;
   flex-flow: column;
   align-items: center;
-  padding-bottom: 10px;;
+  padding-bottom: 10px;
 }
 
 footer .social {
