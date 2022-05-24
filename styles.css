@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('assets/fondo/fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.actions .search {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.actions .info {
+  display: flex;
+  width: calc(100% - 20px);
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 2em;
+}
+.actions .info .buttons {
+  display: flex;
+  align-items: center;
+}
+nav {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .logo {
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  flex-grow: 2;
+  max-height: 100px;
+  padding: 20px;
+}
+nav ul li {
+  background-color: black;
+}
