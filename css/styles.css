@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 body {
-  background-image: url('assets/fondo/fondo.png');
+  background-image: url('../assets/fondo/fondo.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -103,4 +103,15 @@ footer .info ul.assets {
   padding-left: 0px;
   padding-right: 20px;
   text-align: right;
+}
+
+
+/* content */
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }

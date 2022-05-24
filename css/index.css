@@ -1,0 +1,52 @@
+
+.content .box {
+  width: 50%;
+  background-color: #c5c6d8;
+  border-radius: 20px;
+  height: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content .box img {
+  width: 70%;
+}
+.content .box img.ready {
+  width: 50%;
+}
+.content .box .shirts {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  width: calc(100% + 20px);
+  display: flex;
+  justify-content: space-between;
+}
+.content .box .shirts .shirt1 img.shirt {
+  width: 100px;
+}
+.content .box .shirts .shirt1 img.decoration {
+  width: 50px;
+  position: relative;
+  left: -50px;
+  top: 40px;
+}
+.content .box .shirts .shirt2 {
+  position: relative;
+}
+.content .box .shirts .shirt2 img.shirt {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.content .box .shirts .shirt2 img.decoration {
+  width: 50px;
+  position: absolute;
+  left: -100px;
+  top: 40px;
+}
