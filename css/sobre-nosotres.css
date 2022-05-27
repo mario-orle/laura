@@ -1,0 +1,48 @@
+.content .box .title {
+  position: relative;
+  width: 550px;
+  height: 120px;
+  margin: 0 auto;
+}
+.content .box .title .back {
+  position: absolute;
+  top: -10px;
+  width: 550px;
+}
+.content .box .title .text {
+  position: absolute;
+  top: 30px;
+  left: 110px;
+  width: 330px;
+}
+
+.content .box .body {
+  min-width: 1400px;
+  max-width: 1700px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 80px;
+}
+.content .box .body .text {
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 20px;
+  padding: 30px;
+  width: 50%;
+}
+.content .box .body .text img {
+  width: 100%;
+}
+.content .box .body .image {
+  position: relative;
+  width: 50%;
+}
+.content .box .body .image .big {
+  position: absolute;
+}
+.content .box .body .image .little {
+  position: absolute;
+  left: 300px;
+  top: -20px;
+}
