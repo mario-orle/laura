@@ -1,0 +1,49 @@
+.content .box .title {
+  position: relative;
+  width: 550px;
+  height: 120px;
+  margin: 0 auto;
+}
+.content .box .title .back {
+  position: absolute;
+  top: -10px;
+  width: 550px;
+}
+.content .box .title .text {
+  position: absolute;
+  top: 30px;
+  left: 160px;
+  width: 220px;
+}
+
+.content .box .forms {
+  min-width: 1400px;
+  max-width: 1700px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.content .box .forms .form1 img.title {
+  width: 300px;
+  height: auto;
+}
+.content .box .forms .form1 img.body {
+  width: auto;
+  height: 400px;
+}
+.content .box .forms .form2 img.title {
+  width: 300px;
+  height: auto;
+}
+.content .box .forms .form2 img.body {
+  width: auto;
+  height: 400px;
+}
+.content .box .forms .form1, .content .box .forms .form2 {
+  position: relative;
+}
+.content .box .forms .form1 .btn, .content .box .forms .form2 .btn {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
