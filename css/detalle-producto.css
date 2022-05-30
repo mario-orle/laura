@@ -1,0 +1,43 @@
+
+.content .box {
+  width: 90%;
+  max-width: 1600px;
+  min-width: 480px;
+  background-color: #c5c6d8;
+  border-radius: 40px;
+  height: 840px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  padding: 60px 100px;
+  gap: 30px;
+}
+
+.content .box .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content .box .row img.title {
+  align-self: flex-start;
+  width: 700px;
+}
+
+.content .box .row .producto {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.content .box .row .producto .guia-tallas-stock {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content .box .carrito {
+  align-self: flex-end;
+}
