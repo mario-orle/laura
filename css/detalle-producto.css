@@ -1,8 +1,8 @@
 
 .content .box {
   width: 90%;
-  max-width: 1600px;
-  min-width: 480px;
+  max-width: 80vw;
+  min-width: 70vw;
   background-color: #c5c6d8;
   border-radius: 40px;
   height: 840px;
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  gap: 20px;
 }
 
 .content .box .row img.title {
@@ -30,6 +31,10 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+}
+.content .box .row .producto img {
+  max-width: 90%;
+  height: auto;
 }
 
 .content .box .row .producto .guia-tallas-stock {

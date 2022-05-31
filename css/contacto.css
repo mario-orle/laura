@@ -17,33 +17,44 @@
 }
 
 .content .box .forms {
-  min-width: 1400px;
-  max-width: 1700px;
+  max-width: 80vw;
+  min-width: 70vw;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  gap: 20px;
 }
 .content .box .forms .form1 img.title {
-  width: 300px;
+  width: 20vw;
   height: auto;
 }
 .content .box .forms .form1 img.body {
   width: auto;
-  height: 400px;
+  height: 50vh;
 }
 .content .box .forms .form2 img.title {
-  width: 300px;
+  width: 20vw;
   height: auto;
 }
 .content .box .forms .form2 img.body {
   width: auto;
-  height: 400px;
+  height: 50vh;
+}
+@media screen and (max-width: 1000px) {
+  .content .box .forms .form1 img.body {
+    width: auto;
+    height: 30vh;
+  }
+  .content .box .forms .form2 img.body {
+    width: auto;
+    height: 30vh;
+  }
 }
 .content .box .forms .form1, .content .box .forms .form2 {
   position: relative;
 }
 .content .box .forms .form1 .btn, .content .box .forms .form2 .btn {
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   left: 50px;
 }

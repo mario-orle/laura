@@ -17,12 +17,13 @@
 }
 
 .content .box .body {
-  min-width: 1400px;
-  max-width: 1700px;
+  max-width: 80vw;
+  min-width: 70vw;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   gap: 80px;
+  padding-bottom: 10vw;
 }
 .content .box .body .text {
   background-color: #fff;
@@ -40,9 +41,11 @@
 }
 .content .box .body .image .big {
   position: absolute;
+  width: 21vw;
 }
 .content .box .body .image .little {
   position: absolute;
-  left: 300px;
+  left: 16vw;
   top: -20px;
+  width: 20vw;
 }
